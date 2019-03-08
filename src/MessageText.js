@@ -76,10 +76,10 @@ export default class MessageText extends React.Component {
             this.props.customTextStyle,
           ]}
           parse={[
-            ...this.props.parsePatterns(linkStyle),
             { type: 'url', style: linkStyle, onPress: this.onUrlPress },
             { type: 'phone', style: linkStyle, onPress: this.onPhonePress },
             { type: 'email', style: linkStyle, onPress: this.onEmailPress },
+            ...this.props.parsePatterns(linkStyle),
           ]}
           childrenProps={{ ...this.props.textProps }}
         >
