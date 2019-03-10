@@ -138,7 +138,7 @@ export default class MessageContainer extends React.PureComponent {
     );
 
     if (this.props.scrollToBottomComponent) {
-      return (this.props.scrollToBottomComponent());
+      return (this.props.scrollToBottomComponent({ onPress: this.scrollToBottom }));
     }
     return scrollToBottomComponent;
   }
