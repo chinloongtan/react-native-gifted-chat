@@ -1,6 +1,6 @@
 {
   "name": "react-native-gifted-chat",
-  "version": "0.7.2-patch.0",
+  "version": "0.7.2",
   "description": "The most complete chat UI for React Native",
   "main": "index.js",
   "types": "index.d.ts",
@@ -66,7 +66,7 @@
     "react-test-renderer": "16.4.0"
   },
   "dependencies": {
-    "@expo/react-native-action-sheet": "3.3.2",
+    "@expo/react-native-action-sheet": "https://github.com/chinloongtan/react-native-action-sheet#being",
     "moment": "^2.19.0",
     "react-native-communications": "2.2.1",
     "react-native-lightbox": "^0.7.0",
